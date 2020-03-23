@@ -1,0 +1,14 @@
+create table Product(code varchar(10) NOT NULL PRIMARY KEY,name varchar(100) NOT NULL, price decimal(10,2) NOT NULL,quantity int NOT NULL, active_status boolean,note varchar(200) NOT NULL,categoryID int,UnitID int, FOREIGN KEY(categoryID) REFERENCES category(category_id),FOREIGN KEY(UnitID) REFERENCES unit(unit_id));
+
+create table categoty( category_id int AUTO_INCREMENT, category_name varchar(100) NOT NULL, PRIMARY KEY(category_id));
+
+insert into category(category_name) values('Component');
+insert into category(category_name) values('Desktop');
+insert into category(category_name) values('Laptop');
+insert into category(category_name) values('Networking');
+
+create table unit(unit_id int AUTO_INCREMENT, unit_name varchar(100) NOT NULL, PRIMARY KEY(unit_id));
+
+insert into unit(unit_name) values (‘Pieces');
+insert into unit(unit_name) values (‘Box');
+insert into unit(unit_name) values (‘Tray');

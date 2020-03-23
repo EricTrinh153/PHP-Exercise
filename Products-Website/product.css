@@ -1,0 +1,72 @@
+html, body{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.container{
+	display: inline-block;
+	width:77em;
+	height: 30.5em;
+	margin: auto 0 auto 0;
+	padding: 10px;
+	border: 1px solid #eee;
+	background-color:#F0FFFF;
+	border-radius: 1em 1em 1em 1em;
+	 
+}
+.product-container{
+	display: inline-block;
+	width:77em;
+	margin: auto 0 auto 0;
+	padding: 10px;
+	border: 1px solid #eee;
+	background-color:#F0FFFF;
+}
+#main-nav{
+	display: inline-block;
+	position: absolute;
+	border: 1px solid #eee;
+	float: left;
+	width: 10em;
+	height: 30em;
+	background-color:#B0E0E6;
+	border-radius: 1em 1em 1em 1em;
+	
+}
+#content{
+	display: inline-block;
+	position: relative;
+	border: 1px solid #eee;
+	float: right;
+	width: 66em;
+	height: 30em;
+	border-radius: 1em 1em 1em 1em;
+	background-color: #B0E0E6;
+	padding-left: 10px;
+
+}
+ul{
+	list-style: none;
+}
+a:link{
+	text-decoration: none;
+}
+header{
+	background-color:  
+}
+#basic-info{
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 30em;
+	height: 15em;
+}
+#extra-info{
+	display: inline-block;
+	position: relative;
+	float: right;
+	width: 30em;
+	height: 15em;
+}
